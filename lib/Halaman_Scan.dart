@@ -119,7 +119,14 @@ class _HlamanScanState extends State<HlamanScan> {
                                 borderRadius: BorderRadius.only(
                                     topLeft: Radius.circular(8),
                                     topRight: Radius.circular(8)),
-                                color: Color.fromRGBO(117, 29, 148, 1),
+                                  gradient: LinearGradient(
+                    begin: Alignment.bottomLeft,
+                    end: Alignment.topRight,stops: [0.2,1],
+                    colors: [
+                      Color.fromRGBO(117, 29, 148, 1),
+                      Color.fromRGBO(117, 76, 215, 1),
+                    ],
+                  )
                               ),
                             ),
                             Container(
