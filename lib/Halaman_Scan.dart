@@ -75,7 +75,7 @@ class _HlamanScanState extends State<HlamanScan> {
           body: Stack(alignment: Alignment.bottomLeft, children: [
             Image.asset("assets/Halaman Scan/Bottom Background.png",
                 width: MediaQuery.of(context).size.width),
-            SingleChildScrollView(
+            SingleChildScrollView(padding: EdgeInsets.only(bottom: 150),
                 child: Column(
               children: [
                 PTSPAS(),
