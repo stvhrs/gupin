@@ -14,7 +14,7 @@ class PTSPAS extends StatelessWidget {
                 
   ) ,
         Shimmer.fromColors(period:Duration(milliseconds: 4000) ,
-             baseColor: const Color.fromARGB(5, 46, 46, 46),
+             baseColor: Colors.white.withOpacity(0.0),
                     highlightColor: Colors.white.withOpacity(0.5),
             direction: ShimmerDirection.ltr,
            child: Container(

@@ -26,7 +26,7 @@ class _HlamanScanState extends State<HlamanScan> {
         Scaffold(
           appBar: PreferredSize(
             preferredSize: Size.fromHeight(
-              MediaQuery.of(context).size.height * 0.13,
+              MediaQuery.of(context).size.height * 0.1,
             ),
             child: Container(
               padding:

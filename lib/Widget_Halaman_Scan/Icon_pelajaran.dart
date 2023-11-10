@@ -56,7 +56,7 @@ Route _createRoute() {
                   style: TextStyle(
                       fontWeight: FontWeight.w700,
                       fontSize: 12,color: Colors.grey.shade900,
-                      fontFamily: "FreeSans"),
+                      fontFamily: "Nunito"),
                 ),
               )
             ],
