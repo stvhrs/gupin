@@ -15,7 +15,7 @@ class _HlamanBabState extends State<HlamanBab> {
     return Stack(
       children: [
         Container(color: Colors.white,),
-        Opacity( opacity: 0.1,child: Image.asset("assets/Halaman Bab/Background.png")),
+        Opacity( opacity: 0.08,child: Image.asset("assets/Halaman Bab/Background.png")),
         Scaffold(
             appBar: PreferredSize(
               preferredSize:
